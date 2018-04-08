@@ -2,6 +2,11 @@
 # 点击 [![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/xuiv01/chisel)，[一键部署到heroku](https://heroku.com/deploy?template=https://github.com/xuiv01/chisel)
 
 本地客户端执行：chisel client xxxx.herokuapp.com:80 socks
+
+优酷路由宝可以运行此软件，CPU为ramips/mt7620，指令集mipsle无FPU，golang 1.10 编译：
+env GOOS=linux GOARCH=mipsle GOMIPS=softfloat go build -a -ldflags "-s -w" -o chisel.mipsle
+可以用UPX压缩到2m传入路由器。
+
 # chisel
 
 [![GoDoc](https://godoc.org/github.com/jpillora/chisel?status.svg)](https://godoc.org/github.com/jpillora/chisel)
