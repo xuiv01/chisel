@@ -1,3 +1,7 @@
+> 部署
+# 点击 [![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/xuiv01/chisel)，[一键部署到heroku](https://heroku.com/deploy?template=https://github.com/xuiv01/chisel)
+
+本地客户端执行：chisel client --fingerprint be:02:4e:59:e4:c4:09:97:59:50:8b:d2:6a:e2:5c:37 xxxx.herokuapp.com:80 socks
 # chisel
 
 [![GoDoc](https://godoc.org/github.com/jpillora/chisel?status.svg)](https://godoc.org/github.com/jpillora/chisel)
