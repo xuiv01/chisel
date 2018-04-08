@@ -1,0 +1,70 @@
+{
+	"ImportPath": "github.com/xuiv01/chisel",
+	"GoVersion": "go1.10",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/andrew-d/go-termutil",
+			"Rev": "e3465b077265d5abb403e72bfb046e6ca99d3d1d"
+		},
+		{
+			"ImportPath": "github.com/armon/go-socks5",
+			"Rev": "17f94afe40bcd10aa69071074891c8796b4c72ec"
+		},
+		{
+			"ImportPath": "github.com/gorilla/websocket",
+			"Rev": "fe0558a4c8b17671f1322eafddf9799aa1fdd837"
+		},
+		{
+			"ImportPath": "github.com/jpillora/ansi",
+			"Rev": "82bc67c3d72f23e52491aabb9d9161fca7f8f11c"
+		},
+		{
+			"ImportPath": "github.com/jpillora/backoff",
+			"Rev": "eafdac097da82800082c8b8ef25eeb5566a41772"
+		},
+		{
+			"ImportPath": "github.com/jpillora/chisel/client",
+			"Comment": "1.2.3-1-gf301f5c",
+			"Rev": "f301f5c1b1b26caf84f03d7007df43f175126ff8"
+		},
+		{
+			"ImportPath": "github.com/jpillora/chisel/server",
+			"Comment": "1.2.3-1-gf301f5c",
+			"Rev": "f301f5c1b1b26caf84f03d7007df43f175126ff8"
+		},
+		{
+			"ImportPath": "github.com/jpillora/chisel/share",
+			"Comment": "1.2.3-1-gf301f5c",
+			"Rev": "f301f5c1b1b26caf84f03d7007df43f175126ff8"
+		},
+		{
+			"ImportPath": "github.com/jpillora/requestlog",
+			"Rev": "28838345b1859ac034e7c0201698ff9459e934c3"
+		},
+		{
+			"ImportPath": "github.com/jpillora/sizestr",
+			"Rev": "6ca2df04e5a03fe7ccf27c9bc363fc93a474719a"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/curve25519",
+			"Rev": "ea887511eb6fdcdc92f6276d1d849825b981c4af"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ed25519",
+			"Rev": "ea887511eb6fdcdc92f6276d1d849825b981c4af"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ed25519/internal/edwards25519",
+			"Rev": "ea887511eb6fdcdc92f6276d1d849825b981c4af"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ssh",
+			"Rev": "ea887511eb6fdcdc92f6276d1d849825b981c4af"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "3acaefc0702cfa34f88bd6bae202475282f9b0f4"
+		}
+	]
+}

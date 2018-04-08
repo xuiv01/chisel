@@ -1,0 +1,14 @@
+{
+  "name": "chisel",
+  "description": "chisel",
+  "keywords": [
+    "chisel",
+    "go",
+    "tunnel",
+    "heroku"
+  ],
+  "image": "heroku/go:1.10",
+  "mount_dir": "src/github.com/xuiv01/chisel",
+  "website": "http://github.com/xuiv01/chisel",
+  "repository": "http://github.com/xuiv01/chisel"
+}
